@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hospital Doctor Records</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>Hospital Doctor Records</h1>
+
+  <form id="doctor-form">
+    <input type="text" id="name" placeholder="Enter doctor name">
+    <input type="number" id="doc-id" placeholder="Enter doctor ID">
+    <select id="specialization">
+      <option value="Dermatologist">Dermatologist</option>
+      <option value="ENT">ENT</option>
+      <option value="Dentist">Dentist</option>
+      <option value="Gynecologist">Gynecologist</option>
+      <option value="COVID">COVID</option>
+    </select>
+    <input type="number" id="experience" placeholder="Enter experience in years">
+    <input type="email" id="email" placeholder="Enter email address">
+    <input type="number" id="mobile" placeholder="Enter mobile number">
+    <input type="submit" value="Add Doctor">
+  </form>
+
+  <table id="doctor-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Doctor ID</th>
+        <th>Specialization</th>
+        <th>Experience in years</th>
+        <th>Email address</th>
+        <th>Mobile Number</th>
+        <th>Role</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      </tbody>
+  </table>
+
+  <script src="index.js"></script>
+</body>
+</html>
